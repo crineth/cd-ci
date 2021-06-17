@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Step Hola Mundo
         id: hello
-        uses: crineth/hello-world-docker-action@v1
+        uses: crineth/hello-world-docker-action@v2
         with:
             who-to-greet: "Paola"
       - name: Usar el output
