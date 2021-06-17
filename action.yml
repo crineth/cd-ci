@@ -10,6 +10,6 @@ outputs:
     description: 'La fecha en que nos conocimos'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: docker://crineth/hello-world-docker-action
   args:
     - ${{ inputs.who-to-greet }}
